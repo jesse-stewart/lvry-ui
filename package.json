@@ -1,7 +1,9 @@
 {
   "name": "lvry-ui",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "private": true,
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --minify --external react --external react-dom",
     "typecheck": "tsc --noEmit",
