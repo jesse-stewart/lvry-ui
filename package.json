@@ -1,8 +1,8 @@
 {
   "name": "lvry-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/index.d.ts",
   "private": true,
   "scripts": {
     "prepare": "npm run build",
